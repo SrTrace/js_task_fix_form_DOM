@@ -1,0 +1,2 @@
+function e(e){for(var t=e.split(""),l=0;l<t.length;l++)t[l]===t[l].toUpperCase()&&(t[l]=" "+t[l]);return t[0]=t[0].toUpperCase(),t.join("")}document.querySelectorAll(".field-text").forEach(function(t){var l=document.createElement("label");l.classList.add("field-label"),l.setAttribute("for","".concat(t.id)),l.textContent=e(t.name).toUpperCase(),t.closest(".field").prepend(l),t.placeholder=e(t.name)});
+//# sourceMappingURL=index.bd02d510.js.map
